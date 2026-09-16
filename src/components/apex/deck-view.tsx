@@ -55,8 +55,8 @@ function OpenSlide() {
           Public document
         </a>
         <span className="text-subtle"> · </span>
-        <a className="text-accent underline-offset-2 hover:underline" href="/GRNT_APEX_AMM_Handbook.pdf" target="_blank" rel="noreferrer">
-          AMM handbook
+        <a className="text-accent underline-offset-2 hover:underline" href="/GRNT_APEX_Complete.pdf" target="_blank" rel="noreferrer">
+          Complete book (PDF)
         </a>
       </p>
     </article>

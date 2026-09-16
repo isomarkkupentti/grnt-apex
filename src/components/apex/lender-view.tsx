@@ -17,8 +17,8 @@ export function LenderView() {
         <p className="mt-2 max-w-2xl text-sm text-muted-foreground text-pretty">
           Five layers. Senior 500m is a revolver, not a Uniswap pool. The book is a binary CPMM on an event line.
           Same fight on ten brands is one inventory. Isolated margin never sits in k.{" "}
-          <a className="text-accent underline-offset-2 hover:underline" href="/GRNT_APEX_AMM_Handbook.pdf" target="_blank" rel="noreferrer">
-            AMM handbook (PDF)
+          <a className="text-accent underline-offset-2 hover:underline" href="/GRNT_APEX_Complete.pdf" target="_blank" rel="noreferrer">
+            Complete book (PDF)
           </a>
         </p>
       </div>
