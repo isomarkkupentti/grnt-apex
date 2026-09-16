@@ -1,0 +1,13 @@
+node_modules
+.vercel
+.nitro
+.output
+.tanstack
+.grok
+dist
+screenshots
+*.log
+.env
+.env.*
+.pglite
+home

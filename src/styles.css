@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #09090b;
+  --color-surface: #111114;
+  --color-elevated: #18181c;
+  --color-foreground: #f4f4f5;
+  --color-muted-foreground: #a1a1aa;
+  --color-subtle: #71717a;
+  --color-border: #27272a;
+  --color-primary: #fafafa;
+  --color-primary-foreground: #09090b;
+  --color-accent: #5eead4;
+  --color-accent-foreground: #042f2e;
+  --color-navy: #111114;
+  --color-gold: #5eead4;
+  --color-good: #34d399;
+  --color-bad: #fb7185;
+  --color-ring: #5eead4;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --motion-quick: 150ms;
+  --motion-fast: 250ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  body {
+    background: var(--color-bg);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+}
+
+.gold-rule {
+  height: 1px;
+  background: color-mix(in oklab, var(--color-accent) 55%, transparent);
+  border: 0;
+}
