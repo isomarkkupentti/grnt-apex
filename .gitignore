@@ -11,3 +11,6 @@ screenshots
 .env.*
 .pglite
 home
+attachments
+.project_id
+AGENTS.md
