@@ -48,7 +48,7 @@ export function Shell({ children }: { children: ReactNode }) {
               onClick={() => setTab(t.id)}
               className={cn(
                 "h-10 shrink-0 rounded-md px-3 text-sm font-medium transition-colors duration-(--motion-quick)",
-                tab === t.id ? "bg-elevated text-foreground" : "text-muted-foreground hover:text-foreground",
+                tab === t.id ? "bg-elevated text-accent" : "text-muted-foreground hover:text-foreground",
               )}
             >
               {t.label}
